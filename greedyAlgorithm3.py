@@ -35,8 +35,9 @@ def getPath(origem,destino):
         visitedAllNeighboors = True
         for i in graph[c][0]:
             if not graph[i[0]][1]:
-                paths[i[0]] = c
-                distances[i[0]] = i[1]
+                if distances.get(i[0]) is None:
+                    paths[i[0]] = c
+                    distances[i[0]] = i[1]
                 visitedAllNeighboors = False
         if visitedAllNeighboors:
             c = paths[c]
