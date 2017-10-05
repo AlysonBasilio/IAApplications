@@ -32,6 +32,7 @@ def getPath(origem,destino):
     c = origem
     distances = {}
     while c!=destino:
+        n[0]+=1
         visitedAllNeighboors = True
         for i in graph[c][0]:
             if not graph[i[0]][1]:
@@ -58,12 +59,17 @@ origem = 203
 destino = 600
 for i in range(len(data)):
     graph[i+1] = [getAdjacentCities(i+1,destino), False]
-
+n = {}
+n[0] = 0
 p = getPath(origem,destino)
+print(n)
 x = destino
 distancia = 0
+n[0]=0
 while x != origem:
+    n[0] += 1
     print(str(p[x])+",",end=" ")
     distancia+=getDistance(x,p[x])
     x = p[x]
 print("\n",distancia)
+print("\n",n[0])

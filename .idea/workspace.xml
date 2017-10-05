@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb3ba6a0-582d-4316-bcfa-de6e53821262" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BinaryTree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Structure.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/greedyAlgorithm.py" afterPath="$PROJECT_DIR$/Greedy/greedyAlgorithm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/greedyAlgorithm2.py" afterPath="$PROJECT_DIR$/Greedy/greedyAlgorithm2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/greedyAlgorithm3.py" afterPath="$PROJECT_DIR$/Greedy/greedyAlgorithm3.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A_Estrela/a_estrelaAlgorithm.py" afterPath="$PROJECT_DIR$/A_Estrela/a_estrelaAlgorithm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Greedy/greedyAlgorithm3.py" afterPath="$PROJECT_DIR$/Greedy/greedyAlgorithm3.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,24 +15,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="a_estrelaAlgorithm.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/A_Estrela/a_estrelaAlgorithm.py">
+      <file leaf-file-name="HillClimbingSolution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/N_Queens/HillClimbingSolution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="65" column="79" lean-forward="false" selection-start-line="65" selection-start-column="79" selection-end-line="65" selection-end-column="79" />
+            <state relative-caret-position="1584">
+              <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="greedyAlgorithm3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm3.py">
+      <file leaf-file-name="temperaSimulada.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EquationResolution/temperaSimulada.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="27" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="144">
+              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,15 +72,19 @@
         <option value="$PROJECT_DIR$/greedyAlgorithm.py" />
         <option value="$PROJECT_DIR$/Structure.py" />
         <option value="$PROJECT_DIR$/greedyAlgorithm3.py" />
+        <option value="$PROJECT_DIR$/Greedy/greedyAlgorithm3.py" />
         <option value="$PROJECT_DIR$/A_Estrela/a_estrelaAlgorithm.py" />
+        <option value="$PROJECT_DIR$/N_Queens/HillClimbingSolution.py" />
+        <option value="$PROJECT_DIR$/PSR/resolucaoProblema.py" />
+        <option value="$PROJECT_DIR$/EquationResolution/temperaSimulada.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="width" value="867" />
+    <option name="height" value="1077" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -102,7 +105,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,17 +115,13 @@
             <path>
               <item name="IAApplications" type="b2602c69:ProjectViewProjectNode" />
               <item name="IAApplications" type="462c0819:PsiDirectoryNode" />
-              <item name="A_Estrela" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IAApplications" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IAApplications" type="462c0819:PsiDirectoryNode" />
-              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
+              <item name="EquationResolution" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,7 +149,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a_estrelaAlgorithm">
+  <component name="RunManager" selected="Python.temperaSimulada">
+    <configuration name="HillClimbingSolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/N_Queens" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IAApplications" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/N_Queens/HillClimbingSolution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="Structure" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,40 +201,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="greedyAlgorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IAApplications" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Greedy/greedyAlgorithm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="greedyAlgorithm2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IAApplications" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Greedy/greedyAlgorithm2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="greedyAlgorithm3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,20 +218,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="temperaSimulada" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EquationResolution" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IAApplications" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EquationResolution/temperaSimulada.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.greedyAlgorithm" />
-      <item index="1" class="java.lang.String" itemvalue="Python.greedyAlgorithm2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Structure" />
-      <item index="3" class="java.lang.String" itemvalue="Python.greedyAlgorithm3" />
-      <item index="4" class="java.lang.String" itemvalue="Python.a_estrelaAlgorithm" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Structure" />
+      <item index="1" class="java.lang.String" itemvalue="Python.greedyAlgorithm3" />
+      <item index="2" class="java.lang.String" itemvalue="Python.a_estrelaAlgorithm" />
+      <item index="3" class="java.lang.String" itemvalue="Python.HillClimbingSolution" />
+      <item index="4" class="java.lang.String" itemvalue="Python.temperaSimulada" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.a_estrelaAlgorithm" />
-        <item index="1" class="java.lang.String" itemvalue="Python.greedyAlgorithm3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Structure" />
-        <item index="3" class="java.lang.String" itemvalue="Python.greedyAlgorithm" />
-        <item index="4" class="java.lang.String" itemvalue="Python.greedyAlgorithm2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.temperaSimulada" />
+        <item index="1" class="java.lang.String" itemvalue="Python.HillClimbingSolution" />
+        <item index="2" class="java.lang.String" itemvalue="Python.a_estrelaAlgorithm" />
+        <item index="3" class="java.lang.String" itemvalue="Python.greedyAlgorithm3" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Structure" />
       </list>
     </recent_temporary>
   </component>
@@ -271,10 +269,10 @@
     <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19677171" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18247011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3033033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44167963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -287,7 +285,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -295,43 +293,191 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/N_Queens/HillClimbingSolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EquationResolution/temperaSimulada.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PSR/resolucaoProblema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="186" column="20" lean-forward="true" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/N_Queens/HillClimbingSolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EquationResolution/temperaSimulada.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PSR/resolucaoProblema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="100" column="72" lean-forward="false" selection-start-line="100" selection-start-column="72" selection-end-line="100" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/N_Queens/HillClimbingSolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EquationResolution/temperaSimulada.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/N_Queens/HillClimbingSolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="94" column="9" lean-forward="false" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EquationResolution/temperaSimulada.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/N_Queens/HillClimbingSolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EquationResolution/temperaSimulada.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/N_Queens/HillClimbingSolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Estrela/a_estrelaAlgorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Estrela/a_estrelaAlgorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Estrela/a_estrelaAlgorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1476">
           <caret line="83" column="29" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="83" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Structure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="76" column="27" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="76" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2844">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Structure.py" />
+    <entry file="file://$PROJECT_DIR$/BinaryTree.py" />
     <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="33" column="55" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -339,9 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -349,35 +492,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1476">
           <caret line="83" column="29" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="83" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Structure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="76" column="27" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="76" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2844">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Structure.py" />
+    <entry file="file://$PROJECT_DIR$/BinaryTree.py" />
     <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="33" column="55" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -385,9 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1134">
           <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -395,9 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,71 +522,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="33" column="55" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2844">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Structure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree.py" />
+    <entry file="file://$PROJECT_DIR$/Structure.py" />
     <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2844">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree.py" />
     <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="33" column="55" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Structure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Structure.py" />
     <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,21 +564,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2844">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree.py" />
     <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="33" column="55" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -509,25 +576,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="83" column="29" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="83" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Structure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="76" column="27" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="76" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Structure.py" />
     <entry file="file://$PROJECT_DIR$/Greedy/Uruguay.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,24 +591,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/greedyAlgorithm3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="27" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="1314">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A_Estrela/a_estrelaAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="65" column="79" lean-forward="false" selection-start-line="65" selection-start-column="79" selection-end-line="65" selection-end-column="79" />
+        <state relative-caret-position="450">
+          <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/N_Queens/HillClimbingSolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PSR/resolucaoProblema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="111" column="18" lean-forward="false" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EquationResolution/temperaSimulada.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -45,11 +45,13 @@ def getPath(origem,destino):
     estimated_distances[origem] = getDistance(origem,destino)
     graph[origem][1]=True
     paths[c]=0
+    n = 0
     while c!=destino:
+        n+=1
         # print(c," - Distancia percorrida ate aqui - ",distances[c]," - Cidade anterior - ",paths[c])
         for i in graph[c][0]:
             dist_estim = distances[c]+getDistance(c,i[0])+i[1]
-            print("Cidade",i[0],":",dist_estim,"=",distances[c],"+",getDistance(c,i[0]),"+",i[1])
+            # print("Cidade",i[0],":",dist_estim,"=",distances[c],"+",getDistance(c,i[0]),"+",i[1])
             if estimated_distances.get(i[0]) is None:
                 paths[i[0]] = c
                 # print("cidade", i[0], "distancia estimada", dist_estim)
@@ -67,6 +69,7 @@ def getPath(origem,destino):
                 c = item
                 graph[item][1] = True
                 break
+    print("\n", n)
     return paths
 
 col = ['Coordinate x', 'Coordinate y', 'Adj1', 'Adj2', 'Adj3', 'Adj4',
@@ -82,8 +85,11 @@ for i in range(len(data)):
 p = getPath(origem,destino)
 x = destino
 distancia = 0
+n=0
 while x != origem:
+    n+=1
     print(str(p[x])+",",end=" ")
     distancia+=getDistance(x,p[x])
     x = p[x]
 print("\n",distancia)
+print("\n",n)
